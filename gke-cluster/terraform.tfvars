@@ -1,2 +1,2 @@
-project_id = "project-devops-poc"
+project_id = "YOUR_PROJECT_ID"
 region     = "us-central1"
