@@ -94,6 +94,9 @@ with the that is mention in value.yml helm chart
 Note there is issue the gcr repo is public so it will require to node pool to set the scope for the vm to have proper permissions form gks worker (in terraform) machine so will take time so i leave it for future 
 
 
+# final output
+
+<img width="543" alt="Screenshot 2022-08-14 at 1 23 43 AM" src="https://user-images.githubusercontent.com/47210393/184511600-5a83a73e-3bb3-41e6-9a81-d9c72fa891fb.png">
 
 
 
