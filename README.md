@@ -80,15 +80,16 @@ optional <br />
 
 
 # helm installation commands
-cd /rlt_terraform_k8s_test/charts
-helm install rlt ./rlt-test
-helm upgrade rlt ./rlt-test
-helm template rlt ./rlt-test 
+cd /rlt_terraform_k8s_test/charts <br />
+helm install rlt ./rlt-test <br />
+helm upgrade rlt ./rlt-test <br />
+helm template rlt ./rlt-test <br />
 
 
 # testing
 for testing when we launch the ingress controller it will create the  loadbalancer we can get network pulic ip and make the host in my local system 
 with the that is mention in value.yml helm chart
+<br />
 
 Note there is issue the gcr repo is public so it will require to node pool to set the scope for the vm to have proper permissions form gks worker (in terraform) machine so will take time so i leave it for future 
 
